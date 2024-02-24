@@ -1,5 +1,6 @@
 {
     "configurations": [
+        
         {
             "type": "java",
             "name": "Spring Boot-SpringbootWebApplication<springboot-web>",
@@ -7,6 +8,16 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "com.nacho.curso.springboot.webapp.springbootweb.SpringbootWebApplication",
             "projectName": "seccion2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Seccion3Application<seccion3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.spring.boot3.seccion3.Seccion3Application",
+            "projectName": "seccion3",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
