@@ -12,7 +12,7 @@
 	<groupId>com.nacho.curso.springboot.webapp</groupId>
 	<artifactId>seccion2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-web</name>
+	<name>seccion2</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
