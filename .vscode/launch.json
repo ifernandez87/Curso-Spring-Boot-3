@@ -1,15 +1,15 @@
 {
     "configurations": [
-        
         {
             "type": "java",
-            "name": "Spring Boot-SpringbootWebApplication<springboot-web>",
+            "name": "Spring Boot-SpringbootWebApplication<seccion2>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.nacho.curso.springboot.webapp.springbootweb.SpringbootWebApplication",
             "projectName": "seccion2",
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52608 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=seccion2"
         },
         {
             "type": "java",
@@ -18,6 +18,16 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "es.spring.boot3.seccion3.Seccion3Application",
             "projectName": "seccion3",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EjemploFacturaApplication<ejemplo-factura>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.ejemplo.factura.ejemplofactura.EjemploFacturaApplication",
+            "projectName": "ejemplo-factura",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
