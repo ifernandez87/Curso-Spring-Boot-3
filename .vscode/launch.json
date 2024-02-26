@@ -30,6 +30,16 @@
             "projectName": "ejemplo-factura",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ExcepcionesApplication<seccion5>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.ejemplo.manejo.excepciones.ExcepcionesApplication",
+            "projectName": "seccion5",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

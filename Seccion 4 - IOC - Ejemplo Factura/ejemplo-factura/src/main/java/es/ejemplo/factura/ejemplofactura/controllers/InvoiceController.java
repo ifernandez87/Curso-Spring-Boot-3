@@ -17,10 +17,9 @@ public class InvoiceController {
 
     @GetMapping("detail")
     public Invoice detail() {
-        Client c = Client.builder().name(invoice.getClient().getName()).lastname(invoice.getClient().getLastname())
-                .build();
         Invoice i = Invoice.builder()
-                .client(c)
+                .client(Client.builder().name(invoice.getClient().getName()).lastname(invoice.getClient().getLastname())
+                        .build())
                 .description(invoice.getDescription())
                 .items(invoice.getItems())
                 .build();
