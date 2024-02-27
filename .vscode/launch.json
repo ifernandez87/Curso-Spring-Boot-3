@@ -40,6 +40,16 @@
             "projectName": "seccion5",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-InterceptoresApplication<interceptores>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.ejemplo.seccion6.interceptores.InterceptoresApplication",
+            "projectName": "interceptores",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
