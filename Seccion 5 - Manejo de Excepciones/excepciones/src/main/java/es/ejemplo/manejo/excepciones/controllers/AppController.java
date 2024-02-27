@@ -19,8 +19,8 @@ public class AppController {
 
     @GetMapping
     public String index() {
-        // int value = 100 / 0;
         int value = (Integer.parseInt("12x"));
+        System.out.println(value);
         return "ok 200";
     }
 
