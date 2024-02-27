@@ -14,8 +14,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Component(value = "loadingTimeInterceptor")
 @Slf4j
+@SuppressWarnings("null")
 public class LoadingTimeInterceptor implements HandlerInterceptor {
 
+    @SuppressWarnings("null")
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {

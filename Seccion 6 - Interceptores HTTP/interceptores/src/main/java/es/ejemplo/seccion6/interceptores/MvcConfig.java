@@ -8,6 +8,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
+@SuppressWarnings("null")
 public class MvcConfig implements WebMvcConfigurer {
 
     @Autowired
@@ -16,7 +17,8 @@ public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(timeInterceptor).excludePathPatterns("/app/bar", "/app/baz").addPathPatterns("/app/foo");
+        registry.addInterceptor(timeInterceptor).excludePathPatterns("/app/bar", "/app/baz")
+                .addPathPatterns("/app/foo");
     }
 
 }
