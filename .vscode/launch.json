@@ -50,6 +50,26 @@
             "projectName": "interceptores",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Seccion7Application<seccion7>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.ejemplo.interceptores.seccion7.Seccion7Application",
+            "projectName": "seccion7",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AopApplication<seccion8>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.ejemplo.seccion6.aop.AopApplication",
+            "projectName": "seccion8",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
