@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Seccion 2 - Spring MVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seccion 3 - Inyeccion de Dependencias (IOC)/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seccion 4 - IOC - Ejemplo Factura/ejemplo-factura/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seccion 5 - Manejo de Excepciones/excepciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seccion 6 - Interceptores HTTP/interceptores/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seccion 7 - Interceptores HTTP Horario de Acceso a Clientes/seccion7/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seccion 8 - Programacion Orientada a Aspecto (AOP)/aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seccion 9 - JPA e Hibernate/seccion9/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Seccion 2 - Spring MVC/pom.xml" />
+        <option value="$PROJECT_DIR$/Seccion 9 - JPA e Hibernate/seccion9/pom.xml" />
+        <option value="$PROJECT_DIR$/Seccion 6 - Interceptores HTTP/interceptores/pom.xml" />
+        <option value="$PROJECT_DIR$/Seccion 3 - Inyeccion de Dependencias (IOC)/pom.xml" />
+        <option value="$PROJECT_DIR$/Seccion 8 - Programacion Orientada a Aspecto (AOP)/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/Seccion 4 - IOC - Ejemplo Factura/ejemplo-factura/pom.xml" />
+        <option value="$PROJECT_DIR$/Seccion 5 - Manejo de Excepciones/excepciones/pom.xml" />
+        <option value="$PROJECT_DIR$/Seccion 7 - Interceptores HTTP Horario de Acceso a Clientes/seccion7/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="temurin-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
